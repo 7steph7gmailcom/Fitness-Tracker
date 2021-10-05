@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/7steph7gmailcom/Fitness-Tracker#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.9",
+    "morgan": "^1.10.0"
   }
 }
