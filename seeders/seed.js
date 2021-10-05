@@ -1,10 +1,12 @@
 let mongoose = require('mongoose');
 let db = require('../models');
+// import = as dotenv from "dotenv"
+// dotenv.config()
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false,
-  // useUnifiedTopology: true,
+  useUnifiedTopology: true,
 });
 
 let workoutSeed = [

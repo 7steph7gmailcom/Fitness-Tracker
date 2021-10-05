@@ -1,5 +1,5 @@
 {
-  "name": "Fitness-Tracker",
+  "name": "fitness-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/7steph7gmailcom/Fitness-Tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.13.9",
+    "mongoose": "^5.13.10",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {}
 }
