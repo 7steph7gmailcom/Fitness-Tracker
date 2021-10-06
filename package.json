@@ -1,5 +1,5 @@
 {
-  "name": "fitness-tracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -24,6 +24,5 @@
     "express": "^4.17.1",
     "mongoose": "^5.13.10",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {}
+  }
 }
