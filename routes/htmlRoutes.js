@@ -1,29 +1,16 @@
 const router = require("express").Router();
-const { Workout } = require("../module");
-const db = require("../module");
+const path = require("path");
 
-router.get("/api/workouts", async (req, res) => {
-  const results = await db.Workout.find();
-  res.json(results);
+router.get("/exercise", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/exercise.html"));
 });
 
-router.post("/api/workouts", async (req, res) => {
-  const results = await db.Workout.create(req.body);
-  res.json(results);
+router.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
-router.put("/api/workouts/:id", async (req, res) => {
-  const results = await db.Workout.updateOne(
-    { _id: req.params.id },
-    { $push: { exercises: req.body } }
-  );
-  res.json(results);
-});
-
-router.get("/api/workouts/range", async (req, res) => {
-  const results = await db.Workout.find();
-  res.json(results);
-  console.log(res.json);
+router.get("/stats", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/stats.html"));
 });
 
 module.exports = router;

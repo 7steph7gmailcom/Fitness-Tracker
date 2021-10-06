@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const { Workout } = require("../module");
-const db = require("../module");
+// const { Workout } = require("../models");
+const db = require("../models");
 
 router.get("/api/workouts", async (req, res) => {
   const results = await db.Workout.find();

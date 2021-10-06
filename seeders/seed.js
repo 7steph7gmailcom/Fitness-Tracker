@@ -1,5 +1,5 @@
-let mongoose = require('mongoose');
-let db = require('../models');
+const mongoose = require('mongoose');
+const db = require('../models');
 // import = as dotenv from "dotenv"
 // dotenv.config()
 
