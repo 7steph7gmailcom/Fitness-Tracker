@@ -5,9 +5,9 @@
 This assignment was given starter code. The user should be able to track their workouts and also get aggregated results from the data they supply. They can make entries for both cardio and weight lifting activities. This assignment should use MongoDB Atlas and be deployed in Heroku.
 
 
-## Screencastify Video of Finished Project
-
-https://watch.screencastify.com/v/QMdFonQP6NVSN08aLsDz
+## Screenshot Video of Finished Project
+https://drive.google.com/file/d/1owqAFwtorjW29f70sLvyG1xc8XLxbLsk/view?usp=sharing
+https://drive.google.com/file/d/12InpmmXj1g2QDY8T1tb0HvukdqJcjO7l/view?usp=sharing
 
 
 ## Technology Used
